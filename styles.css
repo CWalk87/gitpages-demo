@@ -1,0 +1,72 @@
+/* styles.css: This is the CSS stylesheet for our HTML pages */
+
+/* Universal selector: Applies to everything on the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* Sets a default font for the whole page */
+    line-height: 1.6;
+    /* Sets the spacing between lines of text */
+    margin: 20px;
+    /* Adds margin around the entire body of the page */
+}
+
+/* Styles for all heading tags */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 20px;
+    /* Adds space below headings */
+    color: #333;
+    /* Sets the text color for headings */
+}
+
+/* Styles for paragraph tags */
+p {
+    margin-bottom: 20px;
+    /* Adds space below paragraphs */
+    color: #666;
+    /* Sets the text color for paragraphs */
+}
+
+/* Styles for links */
+a {
+    color: #007bff;
+    /* Sets the text color for links */
+    text-decoration: none;
+    /* Removes the underline from links */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Adds an underline to links on hover */
+}
+
+/* Adds a simple navigation bar style */
+.nav-bar {
+    background-color: #f4f4f4;
+    /* Sets the background color of the nav bar */
+    padding: 10px 0;
+    /* Adds padding inside the nav bar */
+    text-align: center;
+    /* Centers the nav bar content */
+}
+
+.nav-bar a {
+    margin: 0 15px;
+    /* Adds space between navigation links */
+    text-transform: uppercase;
+    /* Makes nav link text uppercase */
+    color: #333;
+    /* Sets the color of nav link text */
+}
+
+/* Additional styles can be added below as needed */
