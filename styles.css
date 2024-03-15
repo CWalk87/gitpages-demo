@@ -2,15 +2,15 @@
 
 /* Universal selector: Applies to everything on the page */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Arial', sans-serif;
     /* Sets a default font for the whole page */
-    line-height: 1.6;
+    line-height: 4.6;
     /* Sets the spacing between lines of text */
     margin: 20px;
     /* Adds margin around the entire body of the page */
